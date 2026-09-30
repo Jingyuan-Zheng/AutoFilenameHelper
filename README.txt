@@ -1,4 +1,40 @@
-AutoFilenameHelper 1.0.6
+# Auto Filename Helper / 自动文件命名助手
+
+[English](#english) · [中文](#中文)
+
+## English
+
+Native macOS helper for a Shortcut-driven filename suggestion workflow. It validates the incoming request, preserves extensions by default, asks before risky renames, and uses non-overwriting moves.
+
+### Build and install
+
+```bash
+./build_and_install.sh
+```
+
+The app is installed at `~/Applications/AutoFilenameHelper.app`. Configure the supplied `Auto Filename.shortcut` to send its existing input to stdin, or use `shortcut_shell_replacement.sh`.
+
+### Notes
+
+- Supports English and Simplified Chinese.
+- It is a companion app: filename suggestions are supplied by your Shortcut.
+
+## 中文
+
+这是一个供快捷指令调用的原生 macOS 文件命名助手。它会验证输入、默认保留扩展名、在高风险改名时要求确认，并使用不覆盖已有文件的移动方式。
+
+### 构建与安装
+
+```bash
+./build_and_install.sh
+```
+
+应用会安装到 `~/Applications/AutoFilenameHelper.app`。请让附带的 `Auto Filename.shortcut` 将原有输入传给标准输入，或使用 `shortcut_shell_replacement.sh`。
+
+### 说明
+
+- 支持英文和简体中文。
+- 它是配套应用；文件名建议仍由快捷指令提供。
 
 Auto Filename Helper
 ====================
