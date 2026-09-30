@@ -1534,7 +1534,9 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         mainMenu.addItem(appMenuItem)
 
         let appMenu = NSMenu()
-        appMenu.addItem(withTitle: L("menu.about"), action: #selector(NSApplication.orderFrontStandardAboutPanel(_:)), keyEquivalent: "")
+        let aboutItem = NSMenuItem(title: L("menu.about"), action: #selector(showAbout(_:)), keyEquivalent: "")
+        aboutItem.target = self
+        appMenu.addItem(aboutItem)
         appMenu.addItem(.separator())
         let settingsItem = NSMenuItem(title: L("menu.settings"), action: #selector(showSettings(_:)), keyEquivalent: ",")
         settingsItem.target = self
@@ -1554,6 +1556,28 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         settingsController?.showWindow(nil)
         settingsController?.window?.makeKeyAndOrderFront(nil)
         NSApp.activate(ignoringOtherApps: true)
+    }
+
+    @objc func showAbout(_ sender: Any?) {
+        NSApp.orderFrontStandardAboutPanel(options: [.credits: aboutCredits()])
+        NSApp.activate(ignoringOtherApps: true)
+    }
+
+    private func aboutCredits() -> NSAttributedString {
+        let website = URL(string: "https://jingyuan.is-a.dev")!
+        let repository = URL(string: "https://github.com/jingyuan-zheng/AutoFilenameHelper")!
+        let credits = NSMutableAttributedString(string: L("about.credits"), attributes: [.font: NSFont.systemFont(ofSize: NSFont.smallSystemFontSize), .paragraphStyle: centeredParagraphStyle()])
+        let text = credits.string as NSString
+        credits.addAttribute(.link, value: website, range: text.range(of: L("about.website")))
+        credits.addAttribute(.link, value: repository, range: text.range(of: L("about.repository")))
+        credits.addAttribute(.link, value: repository, range: text.range(of: L("about.license")))
+        return credits
+    }
+
+    private func centeredParagraphStyle() -> NSParagraphStyle {
+        let style = NSMutableParagraphStyle()
+        style.alignment = .center
+        return style
     }
 }
 

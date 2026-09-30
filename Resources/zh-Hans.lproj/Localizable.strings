@@ -65,5 +65,9 @@
 "welcome.open_shortcuts" = "打开快捷指令…";
 
 "menu.about" = "关于 Auto Filename";
+"about.website" = "个人网站";
+"about.repository" = "GitHub 仓库";
+"about.license" = "开源 · MIT 许可证";
+"about.credits" = "作者：Jingyuan Zheng\n\n个人网站\nGitHub 仓库\n\n开源 · MIT 许可证";
 "menu.settings" = "设置…";
 "menu.quit" = "退出 Auto Filename";

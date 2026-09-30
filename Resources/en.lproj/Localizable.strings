@@ -65,5 +65,9 @@
 "welcome.open_shortcuts" = "Open Shortcuts…";
 
 "menu.about" = "About Auto Filename";
+"about.website" = "Personal Website";
+"about.repository" = "GitHub Repository";
+"about.license" = "Open source · MIT License";
+"about.credits" = "Created by Jingyuan Zheng\n\nPersonal Website\nGitHub Repository\n\nOpen source · MIT License";
 "menu.settings" = "Settings…";
 "menu.quit" = "Quit Auto Filename";
