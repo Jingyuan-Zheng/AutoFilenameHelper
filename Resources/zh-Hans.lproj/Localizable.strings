@@ -1,0 +1,69 @@
+"rename.title" = "重命名这个文件？";
+"rename.subtitle" = "AI 根据文件内容建议了一个更合适的文件名。";
+"original_filename" = "原文件名";
+"suggested_filename" = "建议文件名";
+"confidence" = "置信度";
+"reason" = "原因";
+"keep_original" = "保留原名";
+"edit_name" = "编辑名称";
+"rename" = "重命名";
+"edit_filename" = "编辑文件名";
+"extension_locked_help" = "文件扩展名已锁定，不会被更改。";
+"extension_unlocked_help" = "你可以编辑完整文件名，包括扩展名。";
+"filename" = "文件名";
+"preview" = "预览";
+"cancel" = "取消";
+"extension.locked" = "扩展名已锁定";
+
+"confirmation.required" = "需要确认 · %@";
+"confirmation.auto_disabled" = "已关闭自动重命名";
+"confirmation.ambiguous" = "文件名含义不明确";
+"confirmation.low_confidence" = "置信度低于 %d%%";
+"confirmation.executable" = "可执行文件或脚本";
+
+"quick_look" = "快速查看";
+"show_in_finder" = "在 Finder 中显示";
+"copy_path" = "拷贝路径";
+"file_actions.tooltip" = "右键可查看文件操作；按空格键快速查看。";
+
+"settings.general" = "通用";
+"settings.filename" = "文件名";
+"settings.interface" = "界面";
+
+"general.auto_rename" = "自动重命名高置信度文件";
+"general.require_below" = "低于此置信度时需要确认";
+"general.threshold_help" = "低于此置信度的文件会要求你确认。";
+"general.confirm_executable" = "可执行文件始终要求确认";
+"general.confirm_ambiguous" = "含义不明确的文件名始终要求确认";
+
+"filename.conflict_label" = "文件名已存在时";
+"conflict.add_number" = "添加编号";
+"conflict.add_timestamp" = "添加时间戳";
+"conflict.cancel" = "取消重命名";
+"conflict.example_number" = "Example.pdf → Example 2.pdf";
+"conflict.example_timestamp" = "Example.pdf → Example 2026-09-21 00.36.00.pdf";
+"conflict.example_cancel" = "保持原文件不变。";
+"filename.maximum_length" = "文件名最大长度";
+"filename.characters" = "个字符";
+"filename.preserve_extension" = "保留原文件扩展名";
+"filename.preserve_help" = "启用后，编辑文件名时原扩展名会保持锁定。";
+
+"interface.language" = "语言";
+"language.system" = "跟随系统";
+"language.english" = "English";
+"language.chinese_simplified" = "简体中文";
+"interface.show_confidence" = "显示置信度";
+"interface.show_explanation" = "显示 AI 说明";
+"interface.appearance" = "外观";
+"appearance.system" = "跟随系统";
+"appearance.light" = "浅色";
+"appearance.dark" = "深色";
+
+"welcome.description" = "使用 AI 生成的文件名建议自动重命名文件。";
+"welcome.shortcut_description" = "此 App 通常由你的快捷指令启动。";
+"welcome.open_settings" = "打开设置…";
+"welcome.open_shortcuts" = "打开快捷指令…";
+
+"menu.about" = "关于 Auto Filename";
+"menu.settings" = "设置…";
+"menu.quit" = "退出 Auto Filename";

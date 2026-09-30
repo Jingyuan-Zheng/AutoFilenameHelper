@@ -1,0 +1,69 @@
+"rename.title" = "Rename this file?";
+"rename.subtitle" = "AI suggested a better filename based on the file content.";
+"original_filename" = "Original filename";
+"suggested_filename" = "Suggested filename";
+"confidence" = "Confidence";
+"reason" = "Reason";
+"keep_original" = "Keep Original";
+"edit_name" = "Edit Name";
+"rename" = "Rename";
+"edit_filename" = "Edit filename";
+"extension_locked_help" = "The file extension is locked to keep it unchanged.";
+"extension_unlocked_help" = "You can edit the full filename, including its extension.";
+"filename" = "Filename";
+"preview" = "Preview";
+"cancel" = "Cancel";
+"extension.locked" = "Extension locked";
+
+"confirmation.required" = "Confirmation required · %@";
+"confirmation.auto_disabled" = "Automatic rename is disabled";
+"confirmation.ambiguous" = "Ambiguous filename";
+"confirmation.low_confidence" = "Confidence below %d%%";
+"confirmation.executable" = "Executable or script";
+
+"quick_look" = "Quick Look";
+"show_in_finder" = "Show in Finder";
+"copy_path" = "Copy Path";
+"file_actions.tooltip" = "Right-click for file actions. Press Space for Quick Look.";
+
+"settings.general" = "General";
+"settings.filename" = "Filename";
+"settings.interface" = "Interface";
+
+"general.auto_rename" = "Rename high-confidence files automatically";
+"general.require_below" = "Require confirmation below";
+"general.threshold_help" = "Files below this confidence require confirmation.";
+"general.confirm_executable" = "Always confirm executable files";
+"general.confirm_ambiguous" = "Always confirm ambiguous filenames";
+
+"filename.conflict_label" = "When a filename already exists";
+"conflict.add_number" = "Add a number";
+"conflict.add_timestamp" = "Add a timestamp";
+"conflict.cancel" = "Cancel the rename";
+"conflict.example_number" = "Example.pdf → Example 2.pdf";
+"conflict.example_timestamp" = "Example.pdf → Example 2026-09-21 00.36.00.pdf";
+"conflict.example_cancel" = "Leave the original file unchanged.";
+"filename.maximum_length" = "Maximum filename length";
+"filename.characters" = "characters";
+"filename.preserve_extension" = "Preserve original file extension";
+"filename.preserve_help" = "When enabled, the original extension stays locked while editing a filename.";
+
+"interface.language" = "Language";
+"language.system" = "System Default";
+"language.english" = "English";
+"language.chinese_simplified" = "Simplified Chinese";
+"interface.show_confidence" = "Show confidence";
+"interface.show_explanation" = "Show AI explanation";
+"interface.appearance" = "Appearance";
+"appearance.system" = "Follow System";
+"appearance.light" = "Light";
+"appearance.dark" = "Dark";
+
+"welcome.description" = "Automatically renames files using AI-generated filename suggestions.";
+"welcome.shortcut_description" = "This app is normally launched by your Shortcut.";
+"welcome.open_settings" = "Open Settings…";
+"welcome.open_shortcuts" = "Open Shortcuts…";
+
+"menu.about" = "About Auto Filename";
+"menu.settings" = "Settings…";
+"menu.quit" = "Quit Auto Filename";
