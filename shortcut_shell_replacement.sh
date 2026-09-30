@@ -1,3 +1,3 @@
 #!/bin/zsh
 set -u
-exec "/Users/jingyuan/Applications/AutoFilenameHelper.app/Contents/MacOS/AutoFilenameHelper"
+exec "$HOME/Applications/AutoFilenameHelper.app/Contents/MacOS/AutoFilenameHelper"

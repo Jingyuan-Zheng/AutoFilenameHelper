@@ -6,7 +6,7 @@ DISPLAY_NAME="Auto Filename"
 ROOT_DIR="${0:A:h}"
 BUILD_DIR="$ROOT_DIR/.build"
 APP_DIR="$BUILD_DIR/$APP_NAME.app"
-DEST_ROOT="/Users/jingyuan/Applications"
+DEST_ROOT="$HOME/Applications"
 DEST_APP="$DEST_ROOT/$APP_NAME.app"
 ICON_SOURCE="/System/Library/CoreServices/Finder.app/Contents/Resources/Finder.icns"
 

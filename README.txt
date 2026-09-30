@@ -50,7 +50,7 @@ Install
 
 The app is installed to:
 
-   /Users/jingyuan/Applications/AutoFilenameHelper.app
+   ~/Applications/AutoFilenameHelper.app
 
 Shortcuts replacement
 ---------------------
@@ -60,7 +60,7 @@ Replace the previous long shell block with the contents of:
 
 or simply:
 
-   exec "/Users/jingyuan/Applications/AutoFilenameHelper.app/Contents/MacOS/AutoFilenameHelper"
+   exec "$HOME/Applications/AutoFilenameHelper.app/Contents/MacOS/AutoFilenameHelper"
 
 Keep the Shortcuts action configured to pass its existing input to stdin.
 
