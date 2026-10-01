@@ -12,6 +12,13 @@ Native macOS helper for a Shortcut-driven filename suggestion workflow. It valid
 
 The app is installed at `~/Applications/AutoFilenameHelper.app`. Configure `Auto Filename.shortcut` to send input to stdin.
 
+## Use
+
+1. Build and install the app.
+2. Import `Auto Filename.shortcut` in Shortcuts and replace its execution step with `shortcut_shell_replacement.sh`.
+3. Run the Shortcut from Finder on a file. Review the native confirmation window when one is shown.
+4. Open the app directly to change language, appearance, rename threshold, extension handling, and conflict behaviour.
+
 ## Features
 
 - Validates paths and rejects symlinks, hidden or unsafe names, unsupported file types, and unchanged names.

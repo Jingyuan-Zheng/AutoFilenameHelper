@@ -12,6 +12,13 @@
 
 应用安装到 `~/Applications/AutoFilenameHelper.app`；请让 `Auto Filename.shortcut` 将输入传给标准输入。
 
+## 使用方法
+
+1. 构建并安装应用。
+2. 在快捷指令中导入 `Auto Filename.shortcut`，并用 `shortcut_shell_replacement.sh` 替换其执行步骤。
+3. 在 Finder 中对文件运行快捷指令；出现原生确认窗口时检查后再确认。
+4. 直接打开应用可调整语言、外观、改名阈值、扩展名保留和重名处理方式。
+
 ## 功能
 
 - 验证路径，拒绝符号链接、隐藏/不安全名称、不支持的文件类型和未改变的名称。
